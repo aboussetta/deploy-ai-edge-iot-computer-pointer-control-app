@@ -1,0 +1,48 @@
+
+https://software.intel.com/content/www/us/en/develop/tools/openvino-toolkit/choose-download/mac.html?elq_cid=6312702&erpm_id=9424630
+
+The first part of Intel® Distribution of OpenVINO™ toolkit 2020.4 for macOS* has been successfully installed in 
+/opt/intel/openvino_2020.4.287. 
+
+ADDITIONAL STEPS STILL REQUIRED:
+
+Click Finish to close the installation wizard and open the Installation Guide. Follow the guide instructions to complete the remaining tasks listed below:
+
+• Install External Software Dependencies
+• Set Environment variables 
+• Configure Model Optimizer
+• Run the Verification Scripts to Verify Installation and Compile Samples
+
+https://cmake.org/download/
+
+
+
+Software Requirements
+
+A macOS build environment needs these components:
+OpenCV 4.0 or higher
+LLVM 10.0 or higher
+CMake* 3.0 or higher
+Python* 3.5 or higher
+
+
+
+
+
+
+Download the models
+These can be downloaded using the model downloader. The models you will need are:
+
+
+https://docs.openvinotoolkit.org/latest/omz_models_intel_face_detection_adas_binary_0001_description_face_detection_adas_binary_0001.html
+face-detection-adas-binary-0001
+
+https://docs.openvinotoolkit.org/latest/omz_models_intel_head_pose_estimation_adas_0001_description_head_pose_estimation_adas_0001.html
+head-pose-estimation-adas-0001
+
+https://docs.openvinotoolkit.org/latest/omz_models_intel_landmarks_regression_retail_0009_description_landmarks_regression_retail_0009.html
+landmarks-regression-retail-0009
+
+https://docs.openvinotoolkit.org/latest/omz_models_intel_gaze_estimation_adas_0002_description_gaze_estimation_adas_0002.html
+gaze-estimation-adas-0002
+
